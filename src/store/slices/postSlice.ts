@@ -33,7 +33,7 @@ const postsSlice = createSlice({
       state.currentPage = action.payload
     },
     setSearchStr: (state, action: PayloadAction<string>) => {
-      const searchKeyword = action.payload.toLowerCase() // Преобразование поискового запроса в нижний регистр
+      const searchKeyword = action.payload.toLowerCase()
       state.searchStr = searchKeyword
       state.posts = state.initialPosts.filter(
         post =>

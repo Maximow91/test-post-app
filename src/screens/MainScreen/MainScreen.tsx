@@ -1,12 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react'
-import {
-  FlatList,
-  StyleSheet,
-  View,
-  Text,
-  TextInput,
-  ActivityIndicator,
-} from 'react-native'
+import {FlatList, StyleSheet, View, ActivityIndicator} from 'react-native'
 import {useSafeAreaInsets} from 'react-native-safe-area-context'
 import {useSelector} from 'react-redux'
 import {FilterBar} from '../../components/FilterBar/FilterBar'
